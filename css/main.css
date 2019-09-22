@@ -10,9 +10,8 @@ body{
     top:0;
     right: 0;
 }
-
 .portfolio-hero{
-    background:url(../img/self-portrait-too-oscar-floirendo.jpg) no-repeat center center fixed;
+    background:url(../img/35-in-the-clouds-art-hd-wallpaper.jpg) no-repeat center center fixed;
     height: 100vh;
     background-size: cover;
     text-align: center;
@@ -35,9 +34,10 @@ body{
 }
 
 .portfolio-hero .menu-item a{
-    color: white;
+    color: lightgreen;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: 1000;
 }
 
 .portfolio-profile{
@@ -56,21 +56,23 @@ body{
 }
 
 .portfolio-profile h1{
-    font-weight: 300;
+    font-weight: 800;
     margin: 15px;
     font-size: 3.2 rem;
+    color: black;
 }
 
 .portfolio-profile h2{
-    font-weight: 300;
+    font-weight: 800;
     margin: 0px;
     font-size: 2.2 rem;
+    color: black;
 }
 
 main{
     margin: 0;
     padding: 0;
-    background-color: #1a2328;
+    background-color: darkslateblue;
     text-align: center
 }
 
@@ -114,4 +116,12 @@ main{
 
 .skill-main-grid h2{
     font-size: 1.5 rem;
+}
+
+#home h1{
+    color: black;
+}
+
+#home h2{
+    color: black;
 }
