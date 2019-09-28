@@ -11,7 +11,7 @@ body{
     right: 0;
 }
 .portfolio-hero{
-    background:url(../img/35-in-the-clouds-art-hd-wallpaper.jpg) no-repeat center center fixed;
+    background:url(../img/stacking_houses_on_a_windy_day_by_faxdoc-d99amhi.gif) no-repeat center center fixed;
     height: 100vh;
     background-size: cover;
     text-align: center;
@@ -23,7 +23,7 @@ body{
     margin: 0%;
     display: flex;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 25px;
     font-size: 1.5rem;
 }
 
@@ -33,8 +33,8 @@ body{
     
 }
 
-.portfolio-hero .menu-item a{
-    color: lightgreen;
+.portfolio-menu .menu-item a{
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 1000;
@@ -42,16 +42,17 @@ body{
 
 .portfolio-profile{
     width: 650px;
-    height: 400px;
+    height: 300px;
     position: absolute;
     left: 50%;
+    right: 50%;
     transform: translate(-50%, 50%);
     text-align: center;
 }
 
 .portfolio-profile img{
-    height: 200px;
-    width: 250px;
+    height: 300px;
+    width: 350px;
     border-radius: 50%;
 }
 
@@ -95,13 +96,14 @@ main{
 #skills{
     color: white;
     background-color: darkslategray;
-    padding-top: 15px;
+    padding-top: 30px;
 }
 
 #skills h2{
     font-size: 2.5 rem;
     font-weight: 300;
     margin: 20px 0px;
+    text-transform: uppercase;
 }
 
 #skills h3{
@@ -111,7 +113,7 @@ main{
 
 .skill-main-grid{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 2fr);
 }
 
 .skill-main-grid h2{
@@ -125,3 +127,16 @@ main{
 #home h2{
     color: black;
 }
+
+#skills2{
+    color: white;
+    background-color: darkslategray;
+    margin-top: -40px;
+}
+#skills2 h2{
+    font-size: 2.5 rem;
+    font-weight: 300;
+    margin: 20px 0px;
+    text-transform: uppercase;
+}
+
