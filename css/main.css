@@ -446,6 +446,21 @@ main{
         font-size:12.1px;
     }
 }
+@media only screen and (max-width:320px){
+        #skills h2{
+           padding:10px;
+            font-size:12px;
+           
+    }
+
+    #skills p{
+        font-size:9px;
+    }
+
+    #skills h3{
+        font-size:20px;
+    }
+}
 #skills2{
     color: white;
     background:url(../img/hero-product-pages.jpg) no-repeat center center fixed;
@@ -534,6 +549,22 @@ main{
         font-size:12.1px;
     }
 }
+@media only screen and (max-width:320px){
+        #skills2 h2{
+           padding:10px;
+            font-size:12px;
+           
+    }
+
+    #skills2 p{
+        font-size:9px;
+    }
+
+    #skills2 h3{
+        font-size:20px;
+    }
+}
+
 
 
 .portfolio-form h2{
@@ -582,6 +613,7 @@ main{
     margin-top: -40px;
     color: white;
     background-color: darkred;
+    border-radius: 50px;
 }
 
 footer{
