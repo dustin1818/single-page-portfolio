@@ -1,0 +1,371 @@
+
+html{
+    margin: 0%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
+  
+}
+
+body{
+    margin: 0px;
+    top:0;
+    right: 0;
+}
+
+
+  
+.portfolio-hero{
+    background:url(../img/pic0008.png) no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    position: sticky;
+}
+
+
+.portfolio-menu ul{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 1.8rem;;
+    word-spacing: 20px;
+}
+
+.portfolio-menu ul li{
+    list-style: none;
+    width: 100%;
+    
+}
+
+.portfolio-menu .menu-item a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+
+#home{
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    
+}
+
+#home span{
+    text-transform: uppercase;
+    display: block;
+}
+
+.text1{
+
+    background-size: cover;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 3s 1;
+    padding-top:100px;
+}
+
+.text2{
+    padding-top:50px;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color:white;
+}
+
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+
+main{
+    
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+#about{
+    background:url(../img/pic0009.png) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+   padding: 50px;
+    
+}
+
+#about img{
+    height: 25  0px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+#about span{
+    text-transform: uppercase;
+    display: block;
+}
+
+.text3{
+    background-size: cover;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 3s 1;
+}
+
+.text4{
+    font-size: 20px;
+    color:white;
+    letter-spacing: 4px;
+}
+
+
+
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+
+#skills{
+    color: white;
+    background:url(../img/hero-product-pages.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin-top: -40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#skills h2{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0px;
+    text-transform: capitalize;
+    text-align: center;
+    word-spacing:4px;
+    padding:18px;
+}
+
+#skills p{
+    border-left:2px solid red;
+    border-right:2px solid red;
+    border-top:2px solid red;
+    border-bottom:2px solid red;
+    font-size: 17px;
+    font-weight: 300;
+    margin: 20px 0px;
+    text-transform: none;
+    text-align: center;
+    height: 350px;
+}
+
+
+#skills h3{
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.skill-main-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 10fr);
+}
+
+
+.shrink:hover
+{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+
+#skills2{
+    color: white;
+    background:url(../img/hero-product-pages.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin-top: -40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#skills2 h2{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0px;
+    text-transform: capitalize;
+    text-align: center;
+    word-spacing:4px;
+    padding:18px;
+}
+
+#skills2 p{
+    border-left:2px solid red;
+    border-right:2px solid red;
+    border-top:2px solid red;
+    border-bottom:2px solid red;
+    font-size: 17px;
+    font-weight: 300;
+    margin: 20px 0px;
+    text-align: center;
+    height: 350px;
+    padding:15px;
+}
+
+
+
+#skills2 h3{
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.portfolio-form h2{
+    text-decoration: underline;
+}
+.form-label{
+    padding: 10px 0px;
+    font-size: 1.3 rem;
+}
+
+.form-input input{
+    width: 50%;
+    padding: 7px 0px;
+    border-radius: 8px;
+}
+
+.form-input input:focus{
+    transition: .7s;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25)
+}
+.form-input-textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    width: 50%;
+    padding: 7px 0px;
+    height: 200px;
+}
+.form-input-textarea:focus{
+        transition: .7s;
+        border-color: #80bdff;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255,.25)
+}
+
+
+.form-submit{
+    margin-top: 5px;
+    text-align: center ;
+}
+
+.btn-submit{
+    padding: 5px 25px;
+    text-decoration: none;
+    margin-top: -40px;
+    color: white;
+    background-color: darkred;
+    border-radius: 50px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    background:url(../img/pic0007.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 700px){
+    .portfolio-menu ul{
+        font-size:20px;
+        padding-right:110px;
+        margin-bottom:-50px;
+    }
+    .text1{
+        font-size:30px;
+         margin-bottom:-1px;
+    }
+    .text2{
+        font-size:30px; 
+    }
+
+    #about img{
+        width:300px;
+        border-radius:50%;
+    }
+    .text3{
+        font-size:30px;
+    }
+
+    .text4{
+        padding-right:70px;
+        text-align:justify;
+    }
+
+
+    #skills h3{
+        font-size:40px;
+    }
+
+    #skills h2{
+        font-size:20px;
+        word-spacing:0px;
+        margin-right:10px;
+    }
+    #skills .nospace{
+        margin-left:15px;
+    }
+
+    #skills2 h3{
+        font-size:40px;
+    }
+
+    #skills2 h2{
+        font-size:20px;
+        word-spacing:0px;
+        margin-right:10px;
+    }
+    #skills2 p{
+        font-size:16px;
+    }
+    #skills2 .nospace{
+        margin-left:30px;
+        
+    }
+
+   
+    
+}
